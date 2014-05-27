@@ -21,6 +21,7 @@
 		183CF65619342555000E8DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CF63819342555000E8DB5 /* UIKit.framework */; };
 		183CF65E19342555000E8DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183CF65C19342555000E8DB5 /* InfoPlist.strings */; };
 		183CF66019342555000E8DB5 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CF65F19342555000E8DB5 /* GIT_TestTests.m */; };
+		183CF66B19342A9D000E8DB5 /* JECTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CF66A19342A9D000E8DB5 /* JECTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		183CF65B19342555000E8DB5 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		183CF65D19342555000E8DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		183CF65F19342555000E8DB5 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		183CF66919342A9D000E8DB5 /* JECTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JECTest.h; sourceTree = "<group>"; };
+		183CF66A19342A9D000E8DB5 /* JECTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JECTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		183CF62819342555000E8DB5 = {
 			isa = PBXGroup;
 			children = (
+				183CF66919342A9D000E8DB5 /* JECTest.h */,
+				183CF66A19342A9D000E8DB5 /* JECTest.m */,
 				183CF63A19342555000E8DB5 /* GIT Test */,
 				183CF65919342555000E8DB5 /* GIT TestTests */,
 				183CF63319342555000E8DB5 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				183CF64B19342555000E8DB5 /* JECViewController.m in Sources */,
 				183CF64119342555000E8DB5 /* main.m in Sources */,
+				183CF66B19342A9D000E8DB5 /* JECTest.m in Sources */,
 				183CF64519342555000E8DB5 /* JECAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
